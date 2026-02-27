@@ -3,7 +3,7 @@ import { useState } from "react"
 function Register () {
 
 
-function register () {
+
     const [username, setusername] = useState("")
     const [password, setpassword] = useState("") 
     const [email, setemail] = useState("")  
@@ -11,7 +11,7 @@ function register () {
     const [users,setusers]=useState([])
 
     const add_user=()=>{                         
-        setusers([...users,{id,username,password,emai}])
+        setusers([...users,{id,username,password,email}])
         setid(id+1) 
     }
 
