@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
-import persImg from "./composants/imgs/pers.jpg"; 
+import persImg from "./imgs/pers.jpg"; 
+import dglImg from "./imgs/dgl.png"
 
 function Navbar() {
   return (
     <nav>
       <ul>
-        <li>
+        
           <img src={persImg} alt="Profile" />
-        </li>
+        
         <li>
           <h4>b7md_shop</h4>
         </li>
@@ -24,9 +25,11 @@ function Navbar() {
           <Link to="/sport">Sport</Link>
         </li>
         <li>
-          <img src="" alt="jjh" />
+          <img src={dglImg} alt="jjh" />
         </li>
-        <li>username</li>
+        <li>
+          <Link to="/username">Username</Link>
+        </li>
         <li>
           <Link to="/logout">Logout</Link>
         </li>
@@ -36,3 +39,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
