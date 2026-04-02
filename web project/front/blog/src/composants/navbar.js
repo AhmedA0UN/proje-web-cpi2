@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 import persImg from "./imgs/pers.jpg"; 
 import dglImg from "./imgs/dgl.png"
+import "../styles/navbar.css"
+
 
 function Navbar() {
   return (
     <nav>
       <ul>
         
-          <img src={persImg} alt="Profile" />
+          <img src={dglImg} alt="Profile" />
         
         <li>
           <h4>b7md_shop</h4>
@@ -25,7 +27,7 @@ function Navbar() {
           <Link to="/sport">Sport</Link>
         </li>
         <li>
-          <img src={dglImg} alt="jjh" />
+          <img src={persImg} alt="jjh" />
         </li>
         <li>
           <Link to="/username">Username</Link>
