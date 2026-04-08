@@ -32,6 +32,9 @@ function Navbar() {
         <li>
           <Link to="/username">Username</Link>
         </li>
+         <li>
+          <Link to="/write">Write</Link>
+        </li>
         <li>
           <Link to="/logout">Logout</Link>
         </li>

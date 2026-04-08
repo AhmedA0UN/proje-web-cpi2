@@ -3,6 +3,7 @@ import lac from "./imgs/lac.png";
 import lion from "./imgs/lion.png";
 import nature from "./imgs/nature.png";
 import Navbar from "./navbar";
+import Footer from "./footer";
 import "../styles/content.css"   
 
 function Content() {
@@ -19,7 +20,7 @@ function Content() {
 
       {/* Content */}
       <div className="content">
-        <h3>Content</h3>
+        
 
         {/* Posts */}
         <div className="posts">
@@ -34,9 +35,7 @@ function Content() {
       </div>
 
       {/* Footer */}
-      <footer className="footer">
-        <p>Footer</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

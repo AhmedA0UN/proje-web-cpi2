@@ -3,12 +3,15 @@ import Login from "./composants/login"
 import Register from "./composants/register"
 import Navbar from "./composants/navbar"
 import Content from "./composants/content"
+import Footer from "./composants/footer"
+
 
 const routes = createBrowserRouter([
   {path: "/login", element: <Login/>},
   {path: "/register", element: <Register/>},
   {path: "/navbar", element: <Navbar/> },
-  {path: "/content", element: <Content/>}
+  {path: "/content", element: <Content/>},
+  {path: "/footer" , element: <Footer/>}
 ])
 
 function App (){
